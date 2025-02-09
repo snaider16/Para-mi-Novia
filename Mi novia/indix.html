@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💖 Me darias el privilegio y el honor de que sea por segunda vez mi valentine day, miamor 💖</title>
+  <style>
+    .body {
+      background-color: palevioletred;
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">💖 Me darias el privilegio y el honor de que sea por segunda vez mi valentine day, miamor 💖</h1>
+  <img src="https://i.pinimg.com/236x/b5/71/71/b5717145ad670bdf07ecb95aa4e5022a.jpg" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">😍 Si te amo 😍</button>
+  <button id="no">😢 No por negro  😢</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞Ti amu 💞');
+      alert('💖 Eres el amor de mi vida ');
+      location.href = 'https://www.youtube.com/watch?v=2Vv-BfVoq4g=19';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
